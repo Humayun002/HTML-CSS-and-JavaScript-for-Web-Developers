@@ -1,0 +1,55 @@
+body
+{
+	font-size: 16px;
+	background-color: #666699;
+}
+#nav-head
+{
+	background-color: #666666;
+	border-radius: 0;
+	border: 0;
+	padding-top: 10px;
+	padding-bottom: 15px; 
+}
+.navbar-brand
+{
+	vertical-align: center;
+}
+.navbar-brand h1
+{
+	font-weight: bold;
+	color: white;
+	text-shadow: 3px 3px 3px #222;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  	line-height: .75;
+}
+#nav-button
+{
+	vertical-align: center;
+}	
+#collapse-menu
+{
+	background-color: brown;
+}
+#collapse-menu a
+{
+	width:100%;
+	color: white;
+	text-align: center;
+}
+#main-content
+{
+	color: white;
+}
+#main-content h2
+{
+	font-weight: bold;
+	font-size: 2em;
+}
+#chicken
+{
+	background-color: grey;
+	padding-bottom: 15px; 
+}
+
