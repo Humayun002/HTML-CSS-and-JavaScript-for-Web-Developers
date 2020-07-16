@@ -1,3 +1,7 @@
+*
+{
+	box-sizing: border-box;
+}
 body
 {
 	font-size: 16px;
@@ -21,8 +25,13 @@ body
 	color: white;
 	text-shadow: 3px 3px 3px #222;
 	margin-top: 0px;
+	margin-left: 10px;
 	margin-bottom: 0px;
   	line-height: .75;
+}
+.navbar-brand a:hover
+{
+	text-decoration: none;
 }
 #nav-button
 {
@@ -37,6 +46,12 @@ body
 	width:100%;
 	color: white;
 	text-align: center;
+	border: 2px solid #666666;
+}
+#collapse-menu a:hover
+{
+	background-color: white;
+	color: black;
 }
 #main-content
 {
@@ -44,12 +59,33 @@ body
 }
 #main-content h2
 {
+	width: 100%;
 	font-weight: bold;
 	font-size: 2em;
 }
-#chicken
+#main-content section
 {
+	width: 100%;
+}
+section .row
+{
+	margin: 0;
+	padding: 0;
+}
+#chicken, #beef, #sushi
+{	
+	padding: 10px 15px 0;
+	margin: 10px 0px 15px 20px;
 	background-color: grey;
-	padding-bottom: 15px; 
+	padding-bottom: 15px;
+}
+#chicken a, #beef a, #sushi a
+{
+	color: red;
+}
+hr
+{
+	color: white;
+	width: 80%;
 }
 
